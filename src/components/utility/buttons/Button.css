@@ -1,0 +1,27 @@
+.utility__button button {
+  outline: none;
+  min-height: 5rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  padding: 1rem;
+  letter-spacing: 0.12rem;
+  background-image: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.utility__button-button:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-image: linear-gradient(
+    30deg,
+    rgba(253, 187, 45, 1) 0%,
+    rgba(34, 193, 195, 1) 100%
+  );
+}
